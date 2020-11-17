@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+    <div id="main_container" class="div div--container div--container-white">
+    </div>
+    <div class="div div--container div--container-column_direction div--container-white">
+        <label for="title">Title</label>
+        <input class="input input--text" type="text" id="title">
+        <label for="content">Content</label>
+        <textarea class="textarea textarea--content" name="content" id="content" cols="30" rows="10"></textarea>
+        <label>Size:</label>
+        <label class="label label--radio" for="card_big">Big
+            <input type="radio" id="card_big" name="card_size" value="card_big" checked>
+        </label>
+        <label class="label label--radio" for="card_medium">Medium
+            <input type="radio" id="card_medium" name="card_size" value="card_medium">
+        </label>
+        <input name="submit_card" id="submit_card" class="input input--button" type="button" value="Create">
+    </div>
+</body>
+<script src="static/js/cardCreation.js"></script>
+<script src="static/js/main.js"></script>
+
+</html>
