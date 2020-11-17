@@ -10,4 +10,4 @@ Just run "index.html" in your browser and it should be enough.
 Simple frontend project where you create "cards" containing a title and his content, later being added in a main container
 
 ## Gallery
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](screenshot.png)
