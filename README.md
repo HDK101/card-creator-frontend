@@ -9,5 +9,5 @@ Just run "index.html" in your browser and it should be enough.
 
 Simple frontend project where you create "cards" containing a title and his content, later being added in a main container
 
-## Gallery
+## Screenshot
 ![Alt text](screenshot.png)
